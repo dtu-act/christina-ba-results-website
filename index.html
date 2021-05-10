@@ -58,6 +58,8 @@
 
     <p>
     GA - Geometrical Acoustics
+    <p>
+    DG-FEM - discontinuous Galerkin finite element method
 
     <h3>Rectagular room</h3>
     <h4>Music sample</h4>
@@ -179,7 +181,7 @@
     
     
     
-    <h4>Speech sample in octave band pass passes</h4>
+    <h4>Speech sample in octave band passes</h4>
     <table>
         <tr>
             <th></th>
@@ -267,7 +269,7 @@
             <th>GA</th>
         </tr>
         <tr>
-            <td>r4</td>
+            <td>20 Hz - 4000 Hz</td>
             <td><audio controls preload="none">
                     <source src="https://christina-ba-results.s3.eu-north-1.amazonaws.com/results/octaveBandFilter_Lshape_drums_2sec_20hz_4000hz_03_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
@@ -282,7 +284,7 @@
             <th>GA</th>
         </tr>
         <tr>
-            <td>r4</td>
+            <td>20 Hz - 4000 Hz</td>
             <td><audio controls preload="none">
                     <source src="https://christina-ba-results.s3.eu-north-1.amazonaws.com/results/octaveBandFilter_Lshape_mix_20hz_4000hz_03_DG.wav" type="audio/mpeg"> </audio></td>
             <td><audio controls preload="none">
@@ -490,7 +492,7 @@
     
     
     
-    <h4>Music sample octave band passes</h4>
+    <h4>Music sample in octave band passes</h4>
     <table>
         <tr>
             <th></th>
@@ -568,7 +570,7 @@
     
     
     
-    <h4>Spees sample octave band passes</h4>
+    <h4>Speech sample in octave band passes</h4>
     <table>
         <tr>
             <th></th>
@@ -645,6 +647,70 @@
     </table>    
     
 
+    
+    <h3>Other parameter settings</h3>
+    <h4>Scattering coefficient 0.01</h4>
+    <table>
+        <tr>
+            <th></th>
+            <th>Scatter 0.05</th>
+            <th>Scatter 0.01</th>
+        </tr>
+        <tr>
+            <td>Rectangular room, music sample</td>
+            <td><audio controls preload="none">
+                    <source
+                        src="https://christina-ba-results.s3.eu-north-1.amazonaws.com/results/octaveBandFilter_bedroom_drums_2sec_20hz_4000hz_01_ODEON.wav"
+                        type="audio/mpeg"> </audio></td>
+            <td><audio controls preload="none">
+                    <source
+                        src="https://christina-ba-results.s3.eu-north-1.amazonaws.com/results/bedroom_scatter0.01_drums_2sec_20hz_4000hz_01_ODEON.wav"
+                        type="audio/mpeg"> </audio></td>
+        </tr>
+        <tr>
+            <td>Studio, music sample</td>
+            <td><audio controls preload="none">
+                    <source
+                        src="https://christina-ba-results.s3.eu-north-1.amazonaws.com/results_studio/octaveBandFilter_studio_drums_2sec_20hz_6000hz_00_ODEON.wav"
+                        type="audio/mpeg"> </audio></td>
+            <td><audio controls preload="none">
+                    <source
+                        src="https://christina-ba-results.s3.eu-north-1.amazonaws.com/results_studio/studio_scatter0.01_drums_2sec_20hz_6000hz_00_ODEON.wav"
+                        type="audio/mpeg"> </audio></td>
+        </tr>
+    </table>
+    <h4>Scattering coefficient 0.02</h4>
+    <table>
+        <tr>
+            <th></th>
+            <th>Scatter 0.05</th>
+            <th>Scatter 0.02</th>
+        </tr>
+        <tr>
+            <td>L-shaped room, music sample</td>
+            <td><audio controls preload="none">
+                    <source
+                        src="https://christina-ba-results.s3.eu-north-1.amazonaws.com/results/octaveBandFilter_Lshape_drums_2sec_20hz_4000hz_03_ODEON.wav"
+                        type="audio/mpeg"> </audio></td>
+            <td><audio controls preload="none">
+                    <source
+                        src="https://christina-ba-results.s3.eu-north-1.amazonaws.com/results/Lshape_scatter0.02_drums_2sec_20hz_4000hz_03_ODEON.wav"
+                        type="audio/mpeg"> </audio></td>
+        </tr>
+        <tr>
+            <td>L-shaped room, speech sample</td>
+            <td><audio controls preload="none">
+                    <source
+                        src="https://christina-ba-results.s3.eu-north-1.amazonaws.com/results/octaveBandFilter_Lshape_mix_20hz_4000hz_03_ODEON.wav"
+                        type="audio/mpeg"> </audio></td>
+            <td><audio controls preload="none">
+                    <source
+                        src="https://christina-ba-results.s3.eu-north-1.amazonaws.com/results/Lshape_scatter0.02_mix_20hz_4000hz_03_ODEON.wav"
+                        type="audio/mpeg"> </audio></td>
+        </tr>
+    </table>
+    
+    
     <p>
         <hr>
 
