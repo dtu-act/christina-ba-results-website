@@ -31,22 +31,24 @@
     <h2>Abstract</h2>
     <a name="abstract"></a>
 
-    Simulating room acoustics using numerical methods for solving the underlying wave equation yields accurate results,
-    but becomes intractable for higher frequencies due to expensive computations. On the contrary, GA
-    methods are efficient but are only considered accurate well above the Schroeder frequency. By combining the two
-    methods, the full human auditory frequency range can be modeled, but two main question remains: <i>how should the
-        cross-over frequency between the two methods be determined</i> and <i>how do the room conditions influence the
-        result</i>? In this work, we investigate the ability of the geometrical methods to capture the underlying
-    physics in various room conditions, translating into a lower frequency bound determining the cross-over frequency. A
-    listening test is planned, where the cross-over frequency is determined when the sound field becomes perceptual
-    similar enough as the objective pressures get closer to each other.
+    Acoustic simulation has shown to be a valuable tool for creating realistic virtual reality environments and
+    developing and improving acoustic conditions. A commonly used, and often favoured, simulation method based
+    on geometrical acoustics show inaccuracy in small spaces and with low frequencies. Another method using waveequation 
+    solvers yields accurate results but is often deselected due to expensive computations. By combining
+    the two methods the advantages from both simulations can be gained. If a hybrid is constructed, at which
+    frequency should the two simulations meet? The purpose of the project is to find the lowest cut-off frequency
+    that perceptually gives little to no audible difference between signals created in the two different simulations.
+    The frequency is determined based on a listening experiment tested on 9 test participants.
+    The test will be simulated using different room conditions to investigate the impact of geometry on the cross-over
+    frequency.
+
 
     <hr>
 
      <h2>Conditions</h2>
     <a name="conditions"></a>
 
-    There are three different room types; rectangular room, studio and L-Shaped room. All rooms have absorption coefficient 0.3227 and scattering coefficient 0.05.
+    There are three different room types; a rectangular room, L-shaped room and studio. All rooms have absorption coefficient 0.3227 and scattering coefficient 0.05.
 
     <hr>
 
